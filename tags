@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=""UTD-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tags</title>
+    </head>
+    <body>
+        <header id="topo">
+        
+        </header>
+
+        <nav> 
+            
+        </nav>
+
+        <main> 
+            <article>
+                <!--Headings-->
+                <h1>Titulo 1 </h1>
+                <h2>Titulo 2</h2>
+                <h3>Titulo 3</h3>
+                <h4>Titulo 4</h4>
+                <h5>Titulo 5</h5>
+                <h6>Titulo 6</h6>
+
+            </article>
+
+            <!--Listas-->
+            <article>
+              <ol>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+              </ol>
+
+                <ul>Pão</ul>
+                <li> Doce</li>
+                <li> Sal</li>
+
+                 <ul>Leite</ul>
+                 <li>Desnatado</li>
+                <li>Achocolatado</li>
+
+                <ul>Café</ul>
+                <li>Extra forte</li>
+                <li>Capuccino</li>
+
+                <ul>Biscoito</ul>
+                <li>Recheado</li>
+                <li>Frito</li>
+
+                 <ul>Frutas</ul>
+                 <li>Uva</li>
+                 <li>Morango</li>
+            </article>
+
+            <article>
+              <a href="0_intro.html">Link Relativo</a><br>
+              <a href="https://penseavanti.com.br/" "target="_blank"">   Link Absoluto</a><br>
+              <a href="#topo">Link Âncora</a><br>
+              <a href="mailto:tecnologiathais@gmail.com">Link com E-mail </a>
+            </article>
+        </main>
+
+        <footer>
+           
+        </footer>
+    </body>
+</html>
