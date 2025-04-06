@@ -11,7 +11,38 @@
         </header>
 
         <nav> 
-            
+            <ul>
+              <li>
+                <a href="#"> Acessórios </a>
+
+                <ul>
+                  <li>
+                    <a href="#">Brincos</a>
+                  </ul>
+                    </li>
+
+                    <ul>
+                      <li>
+                        <a href="#">Colar</a>
+                  
+                </ul>
+              </li>
+
+                <li>
+                  <a href="#"> Roupas </a>
+                  <ul>
+                    <li>
+                      <a href="#">Calça</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">Blusa</a>
+                    </li>
+                  </ul>
+                </li>
+              </li>
+            </ul>
         </nav>
 
         <main> 
@@ -57,12 +88,36 @@
                  <li>Morango</li>
             </article>
 
+            <!--Vídeo do youtube-->
             <article>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/EpN8hOM3xTU?si=9e0K4QzautWeEROI" title="Youtube vídeo player"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscree></iframe>
+
+            </article>
+
+            <article>
+            
+              <!--Links-->
               <a href="0_intro.html">Link Relativo</a><br>
               <a href="https://penseavanti.com.br/" "target="_blank"">   Link Absoluto</a><br>
               <a href="#topo">Link Âncora</a><br>
               <a href="mailto:tecnologiathais@gmail.com">Link com E-mail </a>
             </article>
+
+            <!--Fluxo de texto-->
+            <article>
+             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti similique nihil, incidunt fuga officia culpa assumenda, odio officiis ratione ut quaerat et modi consectetur ea eligendi cum iure mollitia obcaecati!</p>
+
+             <p><a href="0_intro.html"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a> Quae nulla, ab nostrum corrupti accusantium eligendi ipsam? Nesciunt deleniti esse, soluta omnis corrupti, autem, sequi laboriosam laborum iste magnam ipsam ut! </p>
+
+            </article>
+
+            <article>
+              
+              <img src="TSV/TSV.jpeg" alt="Minha logo" title="Logpotvs" img controls width="500"/
+              >
+            </article>
+
         </main>
 
         <footer>
