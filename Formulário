@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formularios em HTML</title>
+</head>
+
+<body>
+    <section>
+        <main>
+            <!--Campos, Botões-->
+
+            <form name="Cadastro" method="post" action="Cadastro..php">
+
+                <fieldset>
+
+                    <legend>Dados Pessoais:</legend>
+                    <div id="Nome">
+                        <label for="name">Nome</label>
+
+                        <input type="text" placeholder=" Nome Completo" required="required" id="name">
+                    </div>
+
+                    <div id="E-mail">
+
+                        <label for="cp-email">Email:</label>
+
+                        <input type="cp-email" placeholder="Seu email" required="required" id="cp-email" />
+
+                    </div>
+
+                    <div id="whatsapp">
+                        <label>Whatsapp</label>
+                        <input tybe="tel" placeholder="(99) 99999-9999" required="required" pattern="[0-9]{2}-[0-9]{5}[0-9]{4}"
+                    </div>
+            
+                    <div id="Genero">
+                        <label>Gênero</label>
+                        <input type="radio" value="Feminino" name="Genero" <span>Feminino</span>
+                        <input type="radio" value="Masculino" name="Genero" <span>Masculino</span>
+                        <input type="radio" value="Outro" name="Genero" <span>Outro</span>
+
+                    </div>
+
+                    <div id="Interesse">
+                       <label>Aréa de Interesse</label>
+                       <input type="checkbox" value="ti" name="interesse" <span>Tecnologia da Informação</span>
+                       <input type="checkbox" value="comercial" name="interesse" <span>Comercial</span>
+                       <input type="checkbox" value="financeiro" name="interesse" <span>Financeiro</span>
+                    </div>
+
+                    <div id="Cidade">
+                        <label for="cp-cidade">Cidade:</label>
+                        <input type="text" placeholder="Cidade:" required="required">
+                    </div>
+
+                    <div id="estado">
+                        <label>Estados:</label>
+                        <select name="UF">
+                            <option value="Minas Gerais">MG</option>
+                            <option value="São Paulo">SP</option>
+                            <option value="Rio de Janeiro">RJ</option>
+                            <option value="Santa Catarina">Sc</option>
+                            <option value="Goias">GO</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <input type="submit" value="cadastrar">
+
+            </form>
+        </main>
+    </section>
+
+</body>
+
+</html>
